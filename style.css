@@ -62,6 +62,10 @@ main{
 	justify-content: center;
 }
 
+.standardsidebar{
+	width: 250px;
+}
+
 footer .wrapper p{
 	width: 100%;
 	color: #7E7E7E;
