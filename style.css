@@ -5,13 +5,15 @@
 }
 
 html{
-	background-color: #C1C1C1;
+	background-color: #B89FCF;
+	/*background-image: url(img/background2.png);*/
 }
 
 body{
 	padding-top: 30px;
 	width: 1000px;
 	margin: 0 auto;
+
 }
 
 header{
@@ -71,6 +73,11 @@ main{
 
 .standardsidebar{
 	width: 250px;
+}
+
+.topbar{
+	height: 30px;
+	border-bottom: 1px solid 
 }
 
 .bookimages{
