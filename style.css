@@ -76,8 +76,13 @@ main{
 }
 
 .topbar{
+	text-align: center;
+	margin-bottom: 5px;
 	height: 30px;
-	border-bottom: 1px solid 
+	border-bottom: 1px solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bookimages{
@@ -95,6 +100,7 @@ main{
 	padding-top: 5px;
 	margin-top: 30px;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	background-color: #FFFFFF;
 }
@@ -102,6 +108,13 @@ main{
 .socials img{
 	height: 75px;
 	width: 75px;
+}
+
+.socials-row{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .welcometext{
