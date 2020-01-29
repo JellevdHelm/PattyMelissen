@@ -28,7 +28,7 @@ main{
 
 .wrapper{
 	box-sizing: border-box;
-	height: 100%;
+	min-height: 100%;
 	width: 100%;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -117,19 +117,29 @@ main{
 	padding-bottom: 10px;
 }
 
-.welcometext{
+.newsbox{
 	flex-direction: column;
 	display: flex;
 	justify-content: space-around;
 	text-align: center;
 	width: 640px;
 	background-color: #FFFFFF;
+	height: 686px;
+	overflow: auto;
 }
 
-.welcometext img{
+.newsbox img{
 	margin: 0 auto;
 	width: 400px;
 	height: 300px;
+}
+
+.newsitem{
+	height: inherit;
+	max-height: 100%;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	margin: 2px;
 }
 
 footer .wrapper p{
