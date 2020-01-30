@@ -117,7 +117,7 @@ main{
 	padding-bottom: 10px;
 }
 
-.welcometext{
+.lesbriefbox{
 	flex-direction: column;
 	display: flex;
 	justify-content: space-around;
@@ -126,10 +126,17 @@ main{
 	background-color: #FFFFFF;
 }
 
-.welcometext img{
+.lesbriefbox img{
 	margin: 0 auto;
 	width: 400px;
 	height: 300px;
+}
+
+.downloadlinks a{
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 footer .wrapper p{

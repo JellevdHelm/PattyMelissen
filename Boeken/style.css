@@ -57,6 +57,63 @@ main{
 	padding-right: 10px;
 }
 
+.headerbuttons button{
+	text-decoration: none;
+	color: #000000;
+}
+
+.dropbtn {
+	padding-left: -15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #E46628;
+	height: 40px;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
 .banner{
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -117,7 +174,7 @@ main{
 	padding-bottom: 10px;
 }
 
-.welcometext{
+.boekenwrapper{
 	flex-direction: column;
 	display: flex;
 	justify-content: space-around;
@@ -126,10 +183,24 @@ main{
 	background-color: #FFFFFF;
 }
 
-.welcometext img{
+.booktext{
+	width: 350px;
+}
+
+.boekenwrapper img{
 	margin: 0 auto;
 	width: 400px;
 	height: 300px;
+}
+
+.bookboxmaintext{
+	display: flex;
+	justify-content: space-around;
+}
+
+.bookbox img{
+	height: 200px;
+	width: 250px;
 }
 
 footer .wrapper p{
