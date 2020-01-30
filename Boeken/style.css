@@ -199,8 +199,12 @@ main{
 }
 
 .bookbox img{
-	height: 200px;
+	height: 300px;
 	width: 250px;
+}
+
+.bookbox h1{
+	font-size: 30px;
 }
 
 footer .wrapper p{

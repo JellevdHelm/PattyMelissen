@@ -5,8 +5,7 @@
 }
 
 html{
-	background-color: #B89FCF;
-	/*background-image: url(img/background2.png);*/
+	background-image: url(img/background2.png);
 }
 
 body{
@@ -24,6 +23,7 @@ header{
 
 main{
 	background-color: #EEEEEE;
+
 }
 
 .wrapper{
@@ -118,9 +118,11 @@ main{
 }
 
 .welcometext{
-	flex-direction: column;
+	
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
 	text-align: center;
 	width: 640px;
 	background-color: #FFFFFF;
@@ -151,4 +153,5 @@ footer{
 	background-color: #FFFFFF;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
+	margin-bottom: 30px;
 }
