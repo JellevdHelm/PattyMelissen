@@ -170,6 +170,14 @@ main{
     bottom: 10px; 
 }
 
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
 .news{
 	padding-top: 5px;
 	margin-top: 30px;
@@ -208,6 +216,9 @@ main{
 
 .booktext{
 	width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .boekenwrapper img{

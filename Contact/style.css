@@ -170,6 +170,14 @@ main{
     bottom: 10px; 
 }
 
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
 .news{
 	padding-top: 5px;
 	margin-top: 30px;
@@ -213,6 +221,20 @@ main{
 	align-items: center;
 }
 
+.nameinput{
+	width: 300px;
+}
+
+.mailinput{
+	width: 300px;
+}
+
+.mailform{
+	resize: none;
+	width: 500px;
+	height: 150px;
+}
+
 .contactinformation{
 	height: 320px;
 	width: 640px;
@@ -228,6 +250,28 @@ main{
 	width: 75px;
 	padding: 10px;
 	padding-bottom: 0;
+}
+
+.submitbutton {
+	width: 150px;
+	height: 30px;
+	margin: 0 auto;
+	box-shadow: 0px 10px 14px -7px #dba88f;
+	background:linear-gradient(to bottom, #f0824a 5%, #e46728 100%);
+	background-color:#f0824a;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color: #E8E8E8;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #de7e54;
+}
+.submitbutton:hover {
+	background:linear-gradient(to bottom, #e46728 5%, #f0824a 100%);
+	background-color:#e46728;
 }
 
 footer .wrapper p{

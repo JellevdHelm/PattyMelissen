@@ -170,6 +170,14 @@ main{
     bottom: 10px; 
 }
 
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
 .slologo{
 	height: 50px !important;
 	width: 80px !important;

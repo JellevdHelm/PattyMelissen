@@ -54,13 +54,13 @@ main{
 
 .headerbuttons a{
 	text-decoration: none;
-	color: #000000;
+	color: #E8E8E8;
 	padding-right: 10px;
 }
 
 .headerbuttons button{
 	text-decoration: none;
-	color: #000000;
+	color: #E8E8E8;
 }
 
 .dropbtn {
@@ -135,6 +135,11 @@ main{
 }
 
 .topbar{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: #E8E8E8;
+	background:linear-gradient(to bottom, #f0824a 5%, #e46728 100%);
+	background-color:#f0824a;
 	text-align: center;
 	margin-bottom: 5px;
 	height: 30px;
@@ -145,7 +150,8 @@ main{
 }
 
 .bookimages{
-	padding-top: 5px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 	padding-bottom: 5px;
 	background-color: #FFFFFF;
 }
@@ -172,14 +178,24 @@ main{
     bottom: 10px; 
 }
 
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
 .news{
-	padding-top: 5px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 	margin-top: 30px;
 	background-color: #FFFFFF;
 }
 
 .socials{
-	padding-top: 5px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 	margin-top: 30px;
 	display: flex;
 	flex-direction: column;
