@@ -1,9 +1,39 @@
-var slides = document.querySelectorAll('slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,2000);
+let counter = 1;
 
-function nextSlide() {
-    slides[currentSlide].className = 'slides';
-    currentSlide = (currentSlide+1)%slides.length;
-    slides[currentSlide].className = 'slide showing';
-}
+setInterval(function() {
+	if (counter <= 1) {
+		document.getElementById('slide1').className = "show";
+		document.getElementById('slide2').className = "hide";
+		document.getElementById('slide3').className = "hide";
+		document.getElementById('slide4').className = "hide";
+		counter++;
+	}
+	else if (counter <= 2) {
+		document.getElementById('slide1').className = "hide";
+		document.getElementById('slide2').className = "show";
+		document.getElementById('slide3').className = "hide";
+		document.getElementById('slide4').className = "hide";
+		counter++;
+	}
+	else if (counter <= 3) {
+		document.getElementById('slide1').className = "hide";
+		document.getElementById('slide2').className = "hide";
+		document.getElementById('slide3').className = "show";
+		document.getElementById('slide4').className = "hide";
+		counter++;
+	}
+	else if (counter <= 4) {
+		document.getElementById('slide1').className = "hide";
+		document.getElementById('slide2').className = "hide";
+		document.getElementById('slide3').className = "hide";
+		document.getElementById('slide4').className = "show";
+		counter = 1;
+	}
+	else {
+		document.getElementById('slide1').className = "hide";
+		document.getElementById('slide2').className = "hide";
+		document.getElementById('slide3').className = "hide";
+		document.getElementById('slide4').className = "show";
+		counter = 1;
+	}
+}, 3000);
