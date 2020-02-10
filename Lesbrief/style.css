@@ -222,7 +222,6 @@ main{
 
 .dwnldlink {
 	width: 150px;
-	margin: 0 auto;
 	box-shadow: 0px 10px 14px -7px #dba88f;
 	background:linear-gradient(to bottom, #f0824a 5%, #e46728 100%);
 	background-color:#f0824a;
@@ -240,6 +239,12 @@ main{
 .dwnldlink:hover {
 	background:linear-gradient(to bottom, #e46728 5%, #f0824a 100%);
 	background-color:#e46728;
+}
+
+.downloadlinks{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
 }
 
 .downloadlinks a{
