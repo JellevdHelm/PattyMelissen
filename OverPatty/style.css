@@ -217,6 +217,8 @@ main{
 }
 
 .biografie{
+	padding-top: 10px;
+	padding-bottom: 10px;
 	flex-direction: column;
 	display: flex;
 	justify-content: space-around;
@@ -227,8 +229,8 @@ main{
 
 .biografie img{
 	margin: 0 auto;
-	width: 400px;
-	height: 300px;
+	width: 500px;
+	height: 350px;
 }
 
 footer .wrapper p{

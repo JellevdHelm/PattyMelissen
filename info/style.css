@@ -218,10 +218,12 @@ main{
 }
 
 .booktext{
+	height: 350px;
 	width: 350px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .bookbuttons {
@@ -252,16 +254,24 @@ main{
 }
 
 .bookboxmaintext{
+	height: 350px;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
 }
 
-.bookbox img{
+.infobox{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.infobox img{
 	height: 300px;
 	width: 250px;
 }
 
-.bookbox h1{
+.infobox h1{
 	font-size: 30px;
 }
 
