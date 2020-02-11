@@ -5,8 +5,7 @@
 }
 
 html{
-	background-color: #B89FCF;
-	/*background-image: url(img/background2.png);*/
+	background-image: url(../img/background2.png);
 }
 
 body{
@@ -53,13 +52,13 @@ main{
 
 .headerbuttons a{
 	text-decoration: none;
-	color: #000000;
+	color: #E8E8E8;
 	padding-right: 10px;
 }
 
 .headerbuttons button{
 	text-decoration: none;
-	color: #000000;
+	color: #E8E8E8;
 }
 
 .dropbtn {
@@ -134,6 +133,11 @@ main{
 }
 
 .topbar{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: #E8E8E8;
+	background:linear-gradient(to bottom, #f0824a 5%, #e46728 100%);
+	background-color:#f0824a;
 	text-align: center;
 	margin-bottom: 5px;
 	height: 30px;
@@ -142,9 +146,10 @@ main{
 	flex-direction: column;
 	justify-content: center;
 }
-
 .bookimages{
-	padding-top: 5px;	
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-bottom: 5px;
 	background-color: #FFFFFF;
 }
 
@@ -178,25 +183,16 @@ main{
 	display: none;
 }
 
-.slologo{
-	height: 50px !important;
-	width: 80px !important;
-}
-
-.kinheim{
-	height: 55px !important;
-	width: 200px !important;
-	padding-left: 30px;
-}
-
 .news{
-	padding-top: 5px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 	margin-top: 30px;
 	background-color: #FFFFFF;
 }
 
 .socials{
-	padding-top: 5px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 	margin-top: 30px;
 	display: flex;
 	flex-direction: column;
@@ -217,6 +213,7 @@ main{
 }
 
 .biografie{
+	height: 700px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	flex-direction: column;
@@ -227,10 +224,21 @@ main{
 	background-color: #FFFFFF;
 }
 
-.biografie img{
+
+.homeimg{
 	margin: 0 auto;
 	width: 500px;
 	height: 350px;
+}
+
+.slologo{
+	width: 100px;
+	height: 60px;
+}
+
+.kinheim{
+	width: 200px;
+	height: 70px;
 }
 
 footer .wrapper p{
