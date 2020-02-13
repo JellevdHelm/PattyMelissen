@@ -213,7 +213,7 @@ main{
 }
 
 .biografie{
-	height: 700px;
+	height: 975px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	flex-direction: column;
@@ -230,6 +230,12 @@ main{
 	text-align: justify;
 }
 
+.partners{
+	margin: 0 auto;
+	width: 550px;	
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
 
 .homeimg{
 	margin: 0 auto;

@@ -232,7 +232,7 @@ main{
 .descr{
 	margin: 0 auto;
 	width: 300px;
-	text-align: justify;
+	text-align: left;
 }
 
 .bookbuttons {

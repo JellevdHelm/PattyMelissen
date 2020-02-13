@@ -223,16 +223,20 @@ main{
 }
 
 .booktext{
-	width: 350px;
+	width: 500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
 
+.booktext p{
+	width: 500px;
+}
+
 .descr{
 	margin: 0 auto;
 	width: 300px;
-	text-align: justify;
+	text-align: left;
 }
 
 .bookbuttons {
@@ -262,9 +266,17 @@ main{
 	height: 300px;
 }
 
+.bookbox{
+		padding-bottom: 10px;
+	padding-top: 10px;
+}
+
 .bookboxmaintext{
+
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .bookbox img{
