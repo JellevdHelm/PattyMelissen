@@ -215,6 +215,17 @@ main{
 	padding-bottom: 10px;
 }
 
+.title{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.maintext{
+	width: 400px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
 .welcometext{
 	padding-top: 10px;
 	padding-bottom: 10px;

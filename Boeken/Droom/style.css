@@ -5,7 +5,7 @@
 }
 
 html{
-	background-image: url(../img/background2.png);
+	background-image: url(../../img/background2.png);
 }
 
 body{
@@ -27,7 +27,7 @@ main{
 
 .wrapper{
 	box-sizing: border-box;
-	min-height: 100%;
+	height: 100%;
 	width: 100%;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -213,27 +213,78 @@ main{
 	padding-bottom: 10px;
 }
 
-.newsbox{
-	display: block;
+.boekenwrapper{
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
 	text-align: center;
 	width: 640px;
 	background-color: #FFFFFF;
-	height: 686px;
-	overflow-y: scroll;
 }
 
-.newsbox img{
+.booktext{
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.descr{
+	margin: 0 auto;
+	width: 300px;
+	text-align: justify;
+}
+
+.bookbuttons {
+	width: 150px;
+	margin: 0 auto;
+	box-shadow: 0px 10px 14px -7px #dba88f;
+	background:linear-gradient(to bottom, #f0824a 5%, #e46728 100%);
+	background-color:#f0824a;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color: #E8E8E8;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #de7e54;
+}
+.bookbuttons:hover {
+	background:linear-gradient(to bottom, #e46728 5%, #f0824a 100%);
+	background-color:#e46728;
+}
+
+.boekenwrapper img{
 	margin: 0 auto;
 	width: 400px;
 	height: 300px;
 }
 
-.newsitem{
-	height: 400px;
-	max-height: 100%;
-	border: 1px solid #000000;
-	border-radius: 10px;
-	margin: 2px;
+.bookboxmaintext{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.bookbox{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bookbox img{
+	margin-right: 20px;
+	height: 200px;
+	width: 200px;
+}
+
+.bookbox h1{
+	font-size: 30px;
 }
 
 footer .wrapper p{
