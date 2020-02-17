@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Website Patty</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 	<script src="../scripts.js"></script>
 </head>
 <body>
+
 	<header>
 		<div class="namebox">
 			<div class="wrapper">
@@ -36,7 +36,7 @@
 				<a href="../info/index.html">Info Leerkracht</a>
 				<a href="../Lesbrief/index.html" class="homebutton">Lesbrief</a>
 				<a href="../Rollenspel/index.html" class="homebutton">Rollenspel</a>
-				<a href="../Contact/index.html" class="homebutton">Contact</a>
+				<a href="../Contact/index.php" class="homebutton">Contact</a>
 			</div>
 		</div>
 
