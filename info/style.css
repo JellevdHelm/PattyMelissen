@@ -223,8 +223,7 @@ main{
 }
 
 .booktext{
-	height: 350px;
-	width: 350px;
+	width: 600px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -232,7 +231,7 @@ main{
 }
 
 .booktext p{
-	width: 300px;
+	width: 600px;
 	text-align: justify;
 }
 
@@ -264,7 +263,7 @@ main{
 }
 
 .bookboxmaintext{
-	height: 350px;
+/*	height: 350px;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -278,7 +277,7 @@ main{
 
 .infobox img{
 	height: 300px;
-	width: 250px;
+	width: 400px;
 }
 
 .infobox h1{
