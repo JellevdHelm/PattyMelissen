@@ -300,6 +300,25 @@ main{
 	background-color:#e46728;
 }
 
+.mailbutton{
+	text-align: center;
+	width: 280px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	box-shadow: 0px 10px 14px -7px #dba88f;
+	background:linear-gradient(to bottom, #f0824a 5%, #e46728 100%);
+	background-color:#f0824a;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color: #E8E8E8;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #de7e54;
+}
+
 footer .wrapper p{
 	width: 100%;
 	color: #7E7E7E;
